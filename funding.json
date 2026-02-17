@@ -1,59 +1,53 @@
 {
-  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
-  "version": "v1.1.0",
+  "version": "v1.0.0",
   "entity": {
-    "type": "organization",
-    "role": "maintainer",
-    "name": "Your Name",
-    "email": "your-email@gmail.com",
-    "description": "Independent open-source maintainer building free software for small businesses.",
+    "type": "organisation",
+    "role": "owner",
+    "name": "Kaviraja",
+    "email": "tech@zippydigitalsolutions.in",
+    "phone": "8825804521",
+    "description": "An open-source billing software built as a powerful alternative to expensive paid platforms.\nWe offers a clean, user-friendly interface with everything businesses need for invoicing, expense tracking, and tax-ready billing.\nFree, customizable, and transparent — giving you full control over your financial data.",
     "webpageUrl": {
-      "url": "https://github.com/yourusername"
+      "url": "https://kwiqbill.netlify.app/",
+      "wellKnown": "https://zippydigitalsolutions.in/"
     }
   },
-  "projects": [
-    {
-      "guid": "zilling",
-      "name": "Zilling",
-      "description": "Open-source billing and invoicing platform for small businesses.",
-      "webpageUrl": {
-        "url": "https://github.com/yourusername/zilling"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/yourusername/zilling"
-      },
-      "licenses": [
-        "spdx:Apache-2.0"
-      ],
-      "tags": [
-        "open-source",
-        "billing",
-        "mern-stack"
-      ]
-    }
-  ],
+  "projects": [],
   "funding": {
     "channels": [
       {
-        "guid": "github-sponsors",
-        "type": "payment-provider",
-        "address": "https://github.com/sponsors/yourusername",
-        "description": "GitHub Sponsors funding channel."
+        "guid": "my-indian-bank",
+        "type": "bank",
+        "address": "ACC NO: 6818648643 IFSC:IDIB000E037 BRANCH: East Masi Street, Madurai 01",
+        "description": "Official GitHub Sponsors page for supporting the ongoing development, maintenance, and infrastructure costs of this open-source project. Contributions help fund feature improvements, bug fixes, documentation, and community support.\n"
       }
     ],
     "plans": [
       {
-        "guid": "monthly-support",
+        "guid": "my-indian-bank",
         "status": "active",
-        "name": "Monthly Support",
-        "description": "Supports ongoing maintenance and development.",
-        "amount": 0,
-        "currency": "USD",
+        "name": "Started support plan ",
+        "description": "An entry-level support tier for community members who want to contribute to the growth and maintenance of this open-source project. Funds are used for infrastructure, bug fixes, feature improvements, and documentation updates.\n",
+        "amount": 830000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "my-indian-bank"
+        ]
+      },
+      {
+        "guid": "my-indian-bank",
+        "status": "active",
+        "name": "Starter support plan",
+        "description": "An entry-level support tier for community members who want to contribute to the growth and maintenance of this open-source project. Funds are used for infrastructure, bug fixes, feature improvements, and documentation updates.\n",
+        "amount": 52000,
+        "currency": "INR",
         "frequency": "monthly",
         "channels": [
-          "github-sponsors"
+          "my-indian-bank"
         ]
       }
-    ]
+    ],
+    "history": []
   }
 }
